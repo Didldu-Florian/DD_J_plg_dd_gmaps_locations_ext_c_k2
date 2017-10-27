@@ -21,6 +21,9 @@ class PlgDD_GMaps_LocationsDD_Ext_C_K2 extends JPlugin
 
 	/**
 	 * onextc event
+	 * 
+	 * @param   array   $results      the locations array
+	 * @param   string  $extc_plugin  context like 'com_content'
 	 *
 	 * @return  boolean
 	 *
