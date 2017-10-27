@@ -21,16 +21,21 @@ class PlgDD_GMaps_LocationsDD_Ext_C_K2 extends JPlugin
 
 	/**
 	 * onextc event
-	 * 
+	 *
 	 * @param   array   $results      the locations array
 	 * @param   string  $extc_plugin  context like 'com_content'
 	 *
-	 * @return  boolean
+	 * @return  array
 	 *
 	 * @since   Version 1.0.0
 	 */
 	public function onextc($results, $extc_plugin)
 	{
+		if (count($results) == 0)
+		{
+			return $results;
+		}
+
 		$app = JFactory::getApplication();
 
 		/*
