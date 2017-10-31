@@ -6,7 +6,7 @@ A Joomla! DD GMaps Locations specific plugin to connect K2 via it's (content) it
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=102)](https://opensource.org/licenses/GPL-2.0/)
 
 ### Dependent Extensions
-- com_dd_gmaps_module [DD GMaps Locations](https://github.com/hr-it-solutions/DD_J_com_gmaps_locations)
+- com_dd_gmaps_locations [DD GMaps Locations](https://github.com/hr-it-solutions/DD_J_com_gmaps_locations)
 - mod_dd_gmaps_module [DD GMaps Module](https://github.com/hr-it-solutions/DD_J_mod_gmaps_module)
 
 # DD_ Namespace
